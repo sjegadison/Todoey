@@ -14,7 +14,7 @@ class TodoListViewController: UITableViewController {
 //                                "Second","Second","Second","Second","Second","Second","Second",
 //                                "Second","Second","Second","Second","Second","Second","Second","Third"]
     
-    var itemArray : [Item] = []
+    var itemArray = [Item]()
     
     let defaults = UserDefaults.standard
 
