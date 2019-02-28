@@ -4,19 +4,32 @@ PODS:
   - Realm/Headers (3.13.1)
   - RealmSwift (3.13.1):
     - Realm (= 3.13.1)
+  - SwipeCellKit (2.5.1)
 
 DEPENDENCIES:
   - RealmSwift
+  - SwipeCellKit (from `https://github.com/SwipeCellKit/SwipeCellKit.git`, branch `xcode_10.2`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Realm
     - RealmSwift
 
+EXTERNAL SOURCES:
+  SwipeCellKit:
+    :branch: xcode_10.2
+    :git: https://github.com/SwipeCellKit/SwipeCellKit.git
+
+CHECKOUT OPTIONS:
+  SwipeCellKit:
+    :commit: f24fe97cc79e021aef0df479257f954198099d9b
+    :git: https://github.com/SwipeCellKit/SwipeCellKit.git
+
 SPEC CHECKSUMS:
   Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
   RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  SwipeCellKit: 30fd6a4f8a8b8ac864ea389c8b4c8bac5ba5471a
 
-PODFILE CHECKSUM: b96e68697f30fae9d5cbf181bb564f80545d0199
+PODFILE CHECKSUM: cf36f27219ede8377ea9c3aa85768f9f87b6c649
 
 COCOAPODS: 1.6.1
