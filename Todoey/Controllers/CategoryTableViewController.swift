@@ -21,13 +21,13 @@ class CategoryTableViewController:  SwipeTableViewController {
         super.viewDidLoad()
         loadCategories()
         
-        tableView.separatorStyle = .none
+        
     }
 
     // MARK: Table View DataSource Methods
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return categories?.count ?? 1
+        return categories?.count ?? 0
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
